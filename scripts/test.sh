@@ -16,3 +16,6 @@ echo a in currency = ${a}USD
 
 DATE=2025-05-03
 echo good morning, welcome to todays date -${DATE}
+
+DATE1=$(date +%F)
+echo good morning, welcome to todays date -${DATE1}
