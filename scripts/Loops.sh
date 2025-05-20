@@ -18,7 +18,6 @@ number=1
 until [ $number -ge 11 ]
 do
   echo $number
-  number=$((number+1))
+  number=$(( number+1 ))
   done
-  echo "outside loop
-  "
+  echo "outside loop"
