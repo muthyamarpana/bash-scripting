@@ -5,3 +5,11 @@ do
   sleep 1
   done
   echo "this is outside the for loop"
+
+myval=1
+while [ $myval -le 10 ]
+do
+  echo $myval
+  myval=$(( $myval+1 ))
+  sleep 1
+  done
